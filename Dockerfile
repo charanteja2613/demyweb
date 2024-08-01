@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk
-RUN apt update -y
+RUN apt update 
 WORKDIR /app
 COPY target/*.war /app/app.war
 EXPOSE 8079
