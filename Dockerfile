@@ -1,4 +1,4 @@
-FROM FROM openjdk:17-jdk
+FROM openjdk:17-jdk
 RUN apt update -y
 WORKDIR /app
 COPY target/*.war /app/app.war
